@@ -23,8 +23,8 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/esteve/autoware.universe.git
-    version: use-none-language
+    url: https://github.com/jspricke/autoware.universe.git
+    version: add_build_depends
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
