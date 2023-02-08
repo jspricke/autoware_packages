@@ -10,21 +10,21 @@ repositories:
     version: main
   core/autoware_common:
     type: git
-    url: https://github.com/jspricke/autoware_common.git
-    version: add_depends
+    url: https://github.com/autowarefoundation/autoware_common.git
+    version: main
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
     version: main
   core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
     type: git
-    url: https://github.com/esteve/autoware_auto_msgs.git
-    version: fix-missing-dependency
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: tier4/main
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/jspricke/autoware.universe.git
-    version: add_build_depend
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
